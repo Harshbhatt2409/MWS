@@ -3,11 +3,12 @@ With advancements in technology, smartphones, cameras, and sensors are becoming 
 The project was divided into three main sections by our team. The first section was to create a mobile application that could store the information of the patients and notify the caretakers and patients’ contacts when something occurs. The second section was to handle servers and work with the sensors. This was the bridge between the work done on raspberry Pi and the mobile application and the last section was to work on the raspberry pi. My part in this project was to work on Raspberry PI and Pi Camera and perform two major tasks, first one being figuring out a way to track the movements of the patients and notifying when they have entered the room and left the room and the second one being fall detection. Here we will talk about all the how I managed to achieve my part of the project.
 
 Taking inspiration from previous authors work we also decided to use Pose Estimation for fall detection. MoveNet is an ultra-fast and accurate model that detects 17 keypoints of a body. There are two commercially available variants called Lightning and Thunder. Lightning is used for latencycritical applications and Thunder is used for applications that require high accuracy. Both variants support over 30+ frames per second on modern laptops and desktops. It works on bottom-up estimation model, and it uses heatmaps to accurately localize human keypoints.
-MoveNet Model working on Raspberry PI Camera
+
+**MoveNet Model working on Raspberry PI Camera**
 
 ![image](https://github.com/user-attachments/assets/b39cea86-eadd-478c-95bc-02153f9dec88)
 
-Fall Detection Algorithm in motion
+**Fall Detection Algorithm in motion**
 
 ![image](https://github.com/user-attachments/assets/65849b82-ee0f-44b9-9db8-9359070ad2ce)     ![image](https://github.com/user-attachments/assets/bb00d0aa-0a7f-45b8-ab64-1e32d9289afe)     ![image](https://github.com/user-attachments/assets/c41e0f5a-f80e-4bf2-a078-7e6fec766d49)
 
