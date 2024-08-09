@@ -4,8 +4,10 @@ The project was divided into three main sections by our team. The first section 
 
 Taking inspiration from previous authors work we also decided to use Pose Estimation for fall detection. MoveNet is an ultra-fast and accurate model that detects 17 keypoints of a body. There are two commercially available variants called Lightning and Thunder. Lightning is used for latencycritical applications and Thunder is used for applications that require high accuracy. Both variants support over 30+ frames per second on modern laptops and desktops. It works on bottom-up estimation model, and it uses heatmaps to accurately localize human keypoints.
 MoveNet Model working on Raspberry PI Camera
+
 ![image](https://github.com/user-attachments/assets/b39cea86-eadd-478c-95bc-02153f9dec88)
 
 Fall Detection Algorithm in motion
+
 ![image](https://github.com/user-attachments/assets/65849b82-ee0f-44b9-9db8-9359070ad2ce)     ![image](https://github.com/user-attachments/assets/bb00d0aa-0a7f-45b8-ab64-1e32d9289afe)     ![image](https://github.com/user-attachments/assets/c41e0f5a-f80e-4bf2-a078-7e6fec766d49)
 
